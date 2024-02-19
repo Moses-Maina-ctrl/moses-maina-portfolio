@@ -7,9 +7,6 @@ module.exports = {
         'mainHero': '#EBEBEB',
         'nav-grey': '#DFE9F3',
       },
-      width: {
-        'nav-width': 'calc(100%-40px)',
-      }
     },
   },
   plugins: [],
