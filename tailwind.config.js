@@ -6,11 +6,13 @@ module.exports = {
         'nav-bar': '#C4C4C4',
         'mainHero': '#EBEBEB',
         'nav-grey': '#DFE9F3',
-        'pastel-grey': '#c2c2c2'
+        'pastel-grey': '#ececec',
+        'ash-black': '#222'
       },
     },
     fontFamily: {
-      honk: ['Honk', 'system-ui']
+      honk: ['Honk', 'system-ui'],
+      IBM: ['IBM Plex Mono', 'monospace']
     },
   },
   plugins: [],

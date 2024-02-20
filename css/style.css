@@ -650,7 +650,7 @@ video {
 
 .bg-pastel-grey {
   --tw-bg-opacity: 1;
-  background-color: rgb(194 194 194 / var(--tw-bg-opacity));
+  background-color: rgb(236 236 236 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -669,7 +669,7 @@ video {
 }
 
 .to-pastel-grey {
-  --tw-gradient-to: #c2c2c2 var(--tw-gradient-to-position);
+  --tw-gradient-to: #ececec var(--tw-gradient-to-position);
 }
 
 .p-10 {
@@ -704,6 +704,10 @@ video {
   text-align: center;
 }
 
+.font-IBM {
+  font-family: IBM Plex Mono, monospace;
+}
+
 .font-honk {
   font-family: Honk, system-ui;
 }
@@ -715,6 +719,10 @@ video {
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-gray-900 {
