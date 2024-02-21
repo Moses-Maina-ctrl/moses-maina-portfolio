@@ -7,13 +7,18 @@ module.exports = {
         'mainHero': '#EBEBEB',
         'nav-grey': '#DFE9F3',
         'pastel-grey': '#ececec',
-        'ash-black': '#222'
+        'ash-black': '#222',
+        'whitish': '#EAEAEA'
+      },
+      backgroundImage: {
+        'texturedPaper': "url('./assets/textured-paper.png')",
       },
     },
     fontFamily: {
       honk: ['Honk', 'system-ui'],
       IBM: ['IBM Plex Mono', 'monospace']
     },
+
   },
   plugins: [],
 }
