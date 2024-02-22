@@ -8,7 +8,8 @@ module.exports = {
         'nav-grey': '#DFE9F3',
         'pastel-grey': '#ececec',
         'ash-black': '#222',
-        'whitish': '#EAEAEA'
+        'whitish': '#EAEAEA',
+        'beigish': '#E6E6E1'
       },
       backgroundImage: {
         'texturedPaper': "url('./assets/textured-paper.png')",
