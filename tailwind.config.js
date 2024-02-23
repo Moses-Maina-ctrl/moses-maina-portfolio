@@ -3,13 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'nav-bar': '#C4C4C4',
+        'nav-bar': '#C2C2C2',
         'mainHero': '#EBEBEB',
         'nav-grey': '#DFE9F3',
         'pastel-grey': '#ececec',
         'ash-black': '#222',
         'whitish': '#EAEAEA',
-        'beigish': '#E6E6E1'
+        'beigish': '#E6E6E1',
+        'red-icon': '#fe5f57',
+        'green-icon': '#2bca42'
       },
       backgroundImage: {
         'texturedPaper': "url('./assets/textured-paper.png')",
