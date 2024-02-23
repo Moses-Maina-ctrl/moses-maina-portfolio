@@ -12,7 +12,7 @@ module.exports = {
         'beigish': '#E6E6E1',
         'red-icon': '#fe5f57',
         'green-icon': '#2bca42',
-        'ash-grey': '#F4F4F4'
+        'ash-grey': '#F2F2F2'
       },
       backgroundImage: {
         'texturedPaper': "url('./assets/textured-paper.png')",
