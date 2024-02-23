@@ -11,7 +11,8 @@ module.exports = {
         'whitish': '#EAEAEA',
         'beigish': '#E6E6E1',
         'red-icon': '#fe5f57',
-        'green-icon': '#2bca42'
+        'green-icon': '#2bca42',
+        'ash-grey': '#F4F4F4'
       },
       backgroundImage: {
         'texturedPaper': "url('./assets/textured-paper.png')",
