@@ -1517,6 +1517,10 @@ html {
   height: 0.75rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -1583,6 +1587,10 @@ html {
 
 .place-items-center {
   place-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -1706,8 +1714,20 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/assets\/mediavers\.png\'\)\] {
+  background-image: url('../assets/mediavers.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/money\.png\'\)\] {
+  background-image: url('../assets/money.png');
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/assets\/textured-paper\.png\'\)\] {
+  background-image: url('../assets/textured-paper.png');
 }
 
 .from-gray-300 {
@@ -1718,6 +1738,10 @@ html {
 
 .to-pastel-grey {
   --tw-gradient-to: #ececec var(--tw-gradient-to-position);
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .fill-base-100 {
@@ -1746,6 +1770,10 @@ html {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-2 {
@@ -1787,6 +1815,10 @@ html {
   padding-bottom: 5rem;
 }
 
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1805,11 +1837,6 @@ html {
 
 .font-honk {
   font-family: Honk, system-ui;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
