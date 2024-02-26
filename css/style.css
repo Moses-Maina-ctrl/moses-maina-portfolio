@@ -1555,10 +1555,6 @@ html {
   height: 2.25rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -1605,6 +1601,10 @@ html {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .flex-grow {
@@ -2008,6 +2008,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
