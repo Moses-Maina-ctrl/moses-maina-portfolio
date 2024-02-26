@@ -1517,12 +1517,16 @@ html {
   height: 0.75rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-6 {
   height: 1.5rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-9 {
@@ -1553,12 +1557,20 @@ html {
   width: 1.5rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-lg {
@@ -1726,10 +1738,6 @@ html {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\.\/assets\/textured-paper\.png\'\)\] {
-  background-image: url('../assets/textured-paper.png');
-}
-
 .from-gray-300 {
   --tw-gradient-from: #d1d5db var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(209 213 219 / 0) var(--tw-gradient-to-position);
@@ -1742,6 +1750,10 @@ html {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .fill-base-100 {
