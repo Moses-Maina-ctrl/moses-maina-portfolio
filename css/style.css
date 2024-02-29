@@ -1583,6 +1583,10 @@ html {
   width: 75%;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -1609,10 +1613,6 @@ html {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
 }
 
 .flex-grow {
@@ -1907,6 +1907,10 @@ html {
   padding-bottom: 10rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -2036,8 +2040,8 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:w-1\/2 {
-    width: 50%;
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:flex-row {
