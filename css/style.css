@@ -1619,6 +1619,10 @@ html {
   flex-grow: 1;
 }
 
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
